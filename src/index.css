@@ -1,0 +1,30 @@
+.newscard{
+    margin-bottom: 25px;
+}
+
+.newscard img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.newscard .card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+}
+
+
+.newscard .card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+}
+
+.newscard .authortitle{
+    margin-bottom: 5px;
+}
